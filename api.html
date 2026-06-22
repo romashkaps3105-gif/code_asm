@@ -1,0 +1,14 @@
+<h1>API Code Asm</h1>
+<h2>Основные функции</h2>
+
+<h3><code>asm_execute()</code></h3>
+<p>Выполняет ассемблерный код.</p>
+<pre>int asm_execute(const char* assembly_code);</pre>
+<ul>
+    <li><code>assembly_code</code> — строка с ассемблерными инструкциями.</li>
+    <li>Возвращает: код выполнения (0 — успех).</li>
+</ul>
+
+<h3><code>asm_register_read()</code></h3>
+<p>Считывает значение из регистра.</p>
+<pre>uint64_t asm_register_read(const char* register_name);</pre>

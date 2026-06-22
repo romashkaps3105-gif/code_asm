@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Asm — Библиотека для работы с ассемблером</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 30px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .downloads {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #3498db, #2980b9);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-align: center;
+            flex: 1;
+            min-width: 200px;
+        }
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(52, 152, 219, 0.3);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .feature {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .feature h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ecf0f1;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Code Asm</h1>
+            <p class="subtitle">Библиотека для работы с ассемблерным кодом</p>
+        </header>
+
+        <div class="content">
+            <section>
+                <h2>О библиотеке</h2>
+                <p>Code Asm — это мощная библиотека для разработчиков, упрощающая работу с ассемблерными вставками в проектах на C/C++. Она предоставляет удобный интерфейс для вызова ассемблерного кода и управления регистрами.</p>
+                <p>Идеально подходит для оптимизации критических участков кода, работы с низкоуровневыми функциями и изучения ассемблера.</p>
+            </section>
+
+            <section>
+                <h2>Скачать Code Asm</h2>
+                <p>Выберите версию для скачивания:</p>
+                <div class="downloads">
+                    <a href="code-asm-v1.0.zip" class="download-btn">Скачать v1.0 (ZIP)</a>
+                    <a href="code-asm-v1.0.tar.gz" class="download-btn">Скачать v1.0 (TAR.GZ)</a>
+                </div>
+                <p><small>Размер архива: ~50 KB | Последняя версия: 1.0 | Дата выпуска: 22.06.2026</small></p>
+            </section>
+
+            <section>
+                <h2>Возможности</h2>
+                <div class="features">
+                    <div class="feature">
+                        <h3>Поддержка x86/x64</h3>
+                        <p>Работает на 32‑ и 64‑битных системах</p>
+                    </div>
+            <div class="feature">
+                <h3>Простой API</h3>
+                <p>Интуитивно понятный интерфейс для разработчиков</p>
+            </div>
+            <div class="feature">
+                <h3>Высокая производительность</h3>
+                <p>Оптимизированный ассемблерный код</p>
+            </div>
+            <div class="feature">
+                <h3>Документация</h3>
+                <p>Полное руководство и примеры использования</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Начало работы</h2>
+        <ol>
+            <li>Скачайте архив с библиотекой.</li>
+            <li>Распакуйте файлы в папку вашего проекта.</li>
+            <li>Подключите заголовочный файл: <code>#include "code_asm.h"</code></li>
+            <li>Используйте функции библиотеки в коде.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Документация</h2>
+        <p>Подробная документация доступна в архиве или по ссылке:</p>
+        <a href="index.html">Открыть документацию онлайн</a>
+    </section>
+</div>
+
+<footer>
+    <p>© 2026 Code Asm Library. Все права защищены.</p>
+</footer>
+</div>
+</body>
+</html>
